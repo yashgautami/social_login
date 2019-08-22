@@ -15,15 +15,15 @@ const config = new AuthServiceConfig([
   {
     id: GoogleLoginProvider.PROVIDER_ID,
     // provider: new GoogleLoginProvider('583734527008-1mhf4crpel0oilkc80blfno1d7fcp5d7.apps.googleusercontent.com')
-    provider: new GoogleLoginProvider('624796833023-clhjgupm0pu6vgga7k5i5bsfp6qp6egh.apps.googleusercontent.com')
+    provider: new GoogleLoginProvider('YOUR_GOOGLE_API_KEY')
   },
   {
     id: FacebookLoginProvider.PROVIDER_ID,
-    provider: new FacebookLoginProvider('561602290896109')
+    provider: new FacebookLoginProvider('YOUR_FB_API_KEY')
   },
   {
     id: LinkedInLoginProvider.PROVIDER_ID,
-    provider: new LinkedInLoginProvider('78iqy5cu2e1fgr')
+    provider: new LinkedInLoginProvider('YOUR_LNK_API_KEY')
   }
 ]);
 
